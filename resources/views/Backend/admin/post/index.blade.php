@@ -4,7 +4,7 @@
 <div class="container">
     <div class="mb-3">
         <a href="{{url("admin/dashboard/post/create")}}" class="btn btn-primary"><i class="fas fa-plus-circle" style="color:#b7b7b7;"></i> Create</a>
-        <a href="{{url("admin/dashboard/post/trash")}}" class="btn btn-info float-right"><i class="far fa-trash-alt" style="color:#b7b7b7;"></i> View Trash</a>
+        <a href="{{url("admin/dashboard/post/trash")}}" class="btn btn-outline-secondary float-right"><i class="far fa-trash-alt" style="color:#b7b7b7;"></i> View Trash</a>
     </div>
     @include('Backend/admin/messages/success')
     <div class="row justify-content-center">
